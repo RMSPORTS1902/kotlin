@@ -1,7 +1,7 @@
 # Local build with no caches:
 # docker build --no-cache -t local/kotlin-build-env:v7 -f kotlin-build-env.dockerfile .
 
-FROM debian:bullseye-20240423-slim
+FROM debian:bullseye-20240904-slim
 
 RUN apt-get update \
     && apt-get install -y locales \
